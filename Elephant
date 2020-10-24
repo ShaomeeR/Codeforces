@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main ()
+{
+    int a;
+    scanf ("%d",&a);
+    if (a%5==0)
+    {
+        printf ("%d",a/5);
+    }
+    else{
+        int s;
+        s=(a/5)+1;
+        printf ("%d",s);
+    }
+ 
+ 
+}
